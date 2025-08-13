@@ -1,6 +1,6 @@
 # GPS Tracker App 📍
 
-[English](#english) | [中文](#中文)
+[English](##english) | [中文](##中文)
 
 ---
 
@@ -101,7 +101,7 @@ GPSTrackerApp/
 
 1. **克隆项目**
  ```bash
- git clone https://github.com/你的用户名/GPSTrackerApp.git
+ git clone https://github.com/easonYi991122/GPSTrackerApp.git
  cd GPSTrackerApp
  ```
 
@@ -228,7 +228,7 @@ The app requires the following permissions:
 
 1. **Clone the project**
  ```bash
- git clone https://github.com/yourusername/GPSTrackerApp.git
+ git clone https://github.com/easonYi991122/GPSTrackerApp.git
  cd GPSTrackerApp
  ```
 
