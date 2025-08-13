@@ -41,20 +41,20 @@ GPS Tracker App 是一款专业的iOS轨迹记录应用，能够精确记录和�
 
 ```
 GPSTrackerApp/
-├── GPSTrackerAppApp.swift          # 应用入口
-├── ContentView.swift               # 主视图容器
+├── Managers/
+│   ├── LocationManager.swift      # 位置管理器
+│   └── ExportManager.swift        # 数据导出管理
+├── Models/
+│   └── DataModels.swift           # SwiftData数据模型
+├── Utils/
+│   ├── CoordinateConverter.swift  # 坐标系转换工具
+│   └── TrackUtils.swift           # 轨迹计算工具
 ├── Views/
 │   ├── MainView.swift             # 实时记录界面
 │   ├── HistoryView.swift          # 历史轨迹列表
 │   └── TrackDetailView.swift      # 轨迹详情页面
-├── Models/
-│   └── DataModels.swift           # SwiftData数据模型
-├── Managers/
-│   ├── LocationManager.swift      # 位置管理器
-│   └── ExportManager.swift        # 数据导出管理
-├── Utils/
-│   ├── CoordinateConverter.swift  # 坐标系转换工具
-│   └── TrackUtils.swift           # 轨迹计算工具
+├── ContentView.swift              # 主视图容器
+├── GPSTrackerAppApp.swift         # 应用入口
 └── Info.plist                     # 应用配置
 ```
 
@@ -193,20 +193,20 @@ GPS Tracker App is a professional iOS trajectory recording application that accu
 
 ```
 GPSTrackerApp/
-├── GPSTrackerAppApp.swift          # App entry point
-├── ContentView.swift               # Main view container
+├── Managers/
+│   ├── LocationManager.swift      # Location manager
+│   └── ExportManager.swift        # Data export manager
+├── Models/
+│   └── DataModels.swift           # SwiftData data models
+├── Utils/
+│   ├── CoordinateConverter.swift  # Coordinate system converter
+│   └── TrackUtils.swift           # Track calculation utilities
 ├── Views/
 │   ├── MainView.swift             # Real-time recording interface
 │   ├── HistoryView.swift          # Historical tracks list
 │   └── TrackDetailView.swift      # Track detail page
-├── Models/
-│   └── DataModels.swift           # SwiftData data models
-├── Managers/
-│   ├── LocationManager.swift      # Location manager
-│   └── ExportManager.swift        # Data export manager
-├── Utils/
-│   ├── CoordinateConverter.swift  # Coordinate system converter
-│   └── TrackUtils.swift           # Track calculation utilities
+├── ContentView.swift              # Main view container
+├── GPSTrackerAppApp.swift         # App entry point
 └── Info.plist                     # App configuration
 ```
 
